@@ -19,7 +19,7 @@ const Instructions = () => {
         <Card className={classes.root} raised={true}>
           <CardContent>
             <Typography align="left">
-              Instructions
+              Create unit tests for the Counter component using @testing-library/react or enzyme (@testing-library is preferred).
             </Typography>
           </CardContent>
         </Card>
