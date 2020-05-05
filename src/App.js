@@ -13,7 +13,7 @@ export default function App() {
       <div className="app">
         <Instructions />
         <Box px={2}>
-          <Counter />
+          <Counter initialValue={12} />
         </Box>
       </div>
     </MuiThemeProvider>

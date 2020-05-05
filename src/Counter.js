@@ -3,7 +3,7 @@ import { Box } from '@material-ui/core'
 import { Button } from '@material-ui/core' 
 import { ButtonGroup } from '@material-ui/core'
 
-const Counter = ({ initialValue = 12 }) => {
+const Counter = ({ initialValue = 0 }) => {
   const [value, setValue] = useState(initialValue)
 
   const increment = () => setValue(value + 1)
