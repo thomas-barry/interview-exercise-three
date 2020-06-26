@@ -1,11 +1,6 @@
 import React from 'react';
 
-import { render, cleanup } from '@testing-library/react';
-import Counter from '../Counter';
-
-afterEach(cleanup);
-
-const renderComponent = () => render(<Counter />);
+import { render } from '@testing-library/react';
 
 describe('Counter', () => {
   it('passes', () => {
